@@ -35,7 +35,7 @@ body {
     gap: 25px;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -78,13 +78,13 @@ body {
     border-radius: 10px;
 }
 
-.about-content{
+.about-content {
     background-color: #eff5d2;
     padding: 20px 0;
     position: relative;
 }
 
-.about{
+.about {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
@@ -176,20 +176,19 @@ body {
     flex-direction: column;
     height: 550px;
     margin-top: 50PX;
-    margin-bottom: 50px;
     gap: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.skills h1{
+.skills h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 30px;
     color: #556B2F;
 }
 
-.skill-box{
-    min-width: 300px;     
+.skill-box {
+    min-width: 300px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -198,7 +197,8 @@ body {
     gap: 40px;
     background-color: #d7e0ab;
     border-radius: 12px;
-    flex-shrink: 0;       /* prevents shrinking */
+    flex-shrink: 0;
+    /* prevents shrinking */
     padding: 10px;
     margin-top: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -210,30 +210,83 @@ body {
     box-shadow: 0 10px 25px rgba(85, 107, 47, 0.2);
 }
 
-.skill-box h3{
+.skill-box h3 {
     font-size: 25px;
     color: #3f5120;
 }
 
-.skill-box p{
+.skill-box p {
     max-width: 200px;
     text-align: center;
     font-size: 18px;
     color: #556b2f;
 }
 
-.skills-content{
+.skills-content {
     display: flex;
     gap: 20px;
     padding: 20px;
     width: 100%;
-    height: 300px;          
-    overflow-x: auto;      
+    height: 300px;
+    overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    scrollbar-width: none; 
+    scrollbar-width: none;
 }
 
-.skills-content::-webkit-scrollbar{
-    display: none;        
+.skills-content::-webkit-scrollbar {
+    display: none;
+}
+
+.projects{
+    padding: 0 40px;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+    background-color: #eff5d2;
+}
+
+.projects h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #556B2F;
+}
+
+.project-box{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width:100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.project-box::-webkit-scrollbar {
+    display: none;
+}
+
+.project-card{
+    height: 300px;
+    width: 300px;
+    background-color: #6c7b15;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.project-card p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
 }
