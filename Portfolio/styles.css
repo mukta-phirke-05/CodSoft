@@ -239,14 +239,19 @@ body {
 }
 
 .projects{
-    padding: 0 40px;
-    min-height: 600px;
+   padding: 0 40px;
+    height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items:center;
     gap: 30px;
-    background-color: white;
+}
+
+.projects h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #556B2F;
 }
 
 .project-grid {
@@ -255,13 +260,16 @@ body {
     gap: 30px;
     margin-top: 50px;
     width: 100%;
+    max-width: 1100px;   /* 🔥 key */
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 .project-card {
     background-color: #eff5d2;
     border-radius: 8px;
     overflow: hidden;
+    border-color: #3f5120;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -279,6 +287,12 @@ body {
     justify-content: center;
 }
 
+.proj-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .proj-info{
     padding: 15px;
 } 
@@ -294,3 +308,4 @@ body {
     font-size: 14px;
     color: #758904;
 }
+    
