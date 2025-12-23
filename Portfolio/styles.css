@@ -240,12 +240,13 @@ body {
 
 .projects{
    padding: 0 40px;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items:center;
     gap: 30px;
+    margin-top: 20px;
 }
 
 .projects h1{
@@ -308,4 +309,68 @@ body {
     font-size: 14px;
     color: #758904;
 }
-    
+
+.exp{
+    gap: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #556B2F;
+}
+
+.exp-timeline{
+    max-width: 900px;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+.exp-item{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.exp-year{
+    min-width: 150px;
+    font-weight: 600;
+    color: #8fa31e;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.exp-content{
+    flex: 1;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.exp-content h3{
+    font-size: 20px;
+    color: #556b2f;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.exp-content h4{
+    font-size: 16px;
+    color: #65850d;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.exp-content p{
+    font-size: 14px;
+    color: #6c7b15;
+    line-height: 1.6;
+    opacity: 0.8;
+}
